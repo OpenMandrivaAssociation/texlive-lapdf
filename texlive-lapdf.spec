@@ -1,3 +1,9 @@
+# revision 23806
+# category Package
+# catalog-ctan /macros/latex/contrib/lapdf
+# catalog-date 2011-09-04 01:09:50 +0200
+# catalog-license gpl
+# catalog-version 1.1
 Name:		texlive-lapdf
 Version:	1.1
 Release:	1
@@ -121,6 +127,7 @@ otherwise only depends on the calc package.
 %doc %{_texmfdistdir}/doc/latex/lapdf/turtle.tex
 %doc %{_texmfdistdir}/doc/latex/lapdf/vector.pdf
 %doc %{_texmfdistdir}/doc/latex/lapdf/vector.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -131,3 +138,5 @@ otherwise only depends on the calc package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
