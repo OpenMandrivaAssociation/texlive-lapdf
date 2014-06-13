@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-lapdf
 Version:	1.1
-Release:	6
+Release:	7
 Summary:	PDF drawing directly in TeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lapdf
