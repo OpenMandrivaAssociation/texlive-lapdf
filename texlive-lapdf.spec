@@ -1,6 +1,6 @@
 Name:		texlive-lapdf
 Version:	23806
-Release:	1
+Release:	2
 Summary:	PDF drawing directly in TeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lapdf
