@@ -3,7 +3,7 @@ Version:	23806
 Release:	2
 Summary:	PDF drawing directly in TeX documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lapdf
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/lapdf
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lapdf.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lapdf.doc.r%{version}.tar.xz
